@@ -1,0 +1,6 @@
+.towns {
+  display: flex;
+  flex-direction: column;
+  padding: 92px 148px;
+  gap: 80px;
+}

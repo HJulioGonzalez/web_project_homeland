@@ -1,0 +1,41 @@
+.town {
+  display: flex;
+  flex-direction: column;
+  height: 756px;
+  flex-wrap: wrap;
+}
+
+.town__title {
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 76px;
+  width: 460px;
+  margin: 0;
+  padding: 0 0 48px;
+}
+
+.town__pic {
+  padding: 0 0 48px;
+  width: 460px;
+  height: 460px;
+}
+
+.town__shop-button {
+  align-self: flex-start;
+  border: none;
+  padding: 13px 20px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  color: #fff;
+  background-color: #0278fe;
+  border-radius: 4px;
+  width: 355px;
+}
+
+.town__colleague-profession {
+  margin: 0;
+  /* padding: 0 574px 0 0; */
+  width: 58px;
+  align-self: flex-start;
+}
