@@ -4,3 +4,19 @@
   padding: 92px 148px;
   gap: 80px;
 }
+
+@media screen and (min-width: 545px) and (max-width: 1024px) {
+  .towns {
+    display: flex;
+    flex-direction: column;
+    padding: 88px 24px;
+    gap: 31px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 544px) {
+  .towns {
+    padding: 62px 0 64px;
+    gap: 16px;
+  }
+}
