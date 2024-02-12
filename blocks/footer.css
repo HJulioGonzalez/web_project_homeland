@@ -38,12 +38,16 @@
   margin: 243px 0 0;
 }
 
-.footer__about-description {
+.footer__about-info {
+  margin: 32px 0;
+}
+
+.footer__about-text {
   text-align: center;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.22;
-  margin: 32px 0;
+  margin: 0;
 }
 
 .footer__about-tickets {
@@ -111,13 +115,15 @@
     width: 288px;
     height: 35px;
   }
-
-  .footer__about-description {
-    font-size: 14px;
-    line-height: 1.14;
+  .footer__about-info {
     width: 280px;
     height: 48px;
     margin: 16px 20px;
+  }
+
+  .footer__about-text {
+    font-size: 14px;
+    line-height: 1.14;
   }
 
   .footer__about-tickets {
