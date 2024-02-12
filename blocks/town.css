@@ -14,7 +14,7 @@
 .town__title {
   font-size: 72px;
   font-weight: 900;
-  line-height: 76px;
+  line-height: 1.05;
   width: 460px;
   grid-area: title;
   margin: 0 0 48px;
@@ -93,7 +93,7 @@
   height: 22px;
   font-size: 18px;
   font-weight: 400;
-  line-height: 22px;
+  line-height: 1;
   grid-area: artist;
 }
 
@@ -132,12 +132,13 @@
   margin: 0;
   font-size: 18px;
   font-weight: 400;
-  line-height: 163%;
+  line-height: 1.63;
 }
 
-@media screen and (min-width: 545px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1280px) {
   .town {
     column-gap: 0;
+    grid-template-columns: 51.11% 48.89%;
   }
 
   .town_city_berea {
@@ -154,12 +155,12 @@
 
   .town__title {
     font-size: 42px;
-    height: 50px;
-    width: 340px;
+    height: 47.22%;
+    width: auto;
     margin: 0 0 46px;
     display: table-cell;
     vertical-align: middle;
-    line-height: 50px;
+    line-height: 1.19;
   }
 
   .town__title_city_criccieth {
@@ -230,13 +231,13 @@
   }
 
   .town__media {
-    width: 368px;
+    width: 100%;
   }
 
   .town__media-image {
     margin: 0;
-    width: 340px;
-    height: 340px;
+    width: 92.39%;
+    height: auto;
     vertical-align: middle;
   }
 
@@ -271,9 +272,9 @@
   }
 
   .town__info-paragraph {
-    width: 352px;
+    width: 100%;
     font-size: 16px;
-    line-height: 26.08px;
+    line-height: 1.63;
   }
 
   .town__info-paragraph_city_berea {
@@ -286,7 +287,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 544px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .town {
     display: flex;
     flex-direction: column;
@@ -306,7 +307,7 @@
     height: 35px;
     margin: 0 16px 30px;
     font-size: 32px;
-    line-height: 35px;
+    line-height: 1.09;
   }
 
   .town__title_city_berea {
@@ -328,8 +329,8 @@
   }
 
   .town__artist {
-    width: 288px;
-    height: 44px;
+    width: 90%;
+    height: auto;
     margin: 0 16px 30px;
   }
 
@@ -346,23 +347,20 @@
   .town__artist_city_muramvya {
     margin: 0 16px 8px;
   }
-
+  .town__media {
+    width: 100%;
+  }
   .town__media_city_muramvya {
     margin-top: 0;
   }
 
   .town__media-image {
-    width: 320px;
-    height: 320px;
-  }
-
-  .town__media-image_city_muramvya {
-    width: 320px;
-    height: 320px;
+    width: 100%;
+    height: auto;
   }
 
   .town__media-320text {
-    width: 288px;
+    width: 90%;
     color: #fff;
     margin: 0 16px 0;
     display: flex;
@@ -373,13 +371,13 @@
   .town__media-320text_city_kiev::before {
     content: "Kiev (o Kyiv), la capital de Ucrania, es una gran ciudad situada a orillas del río Dniéper. Por supuesto, nadie en su sano juicio se bañaría en el río, a menos que se haya criado aquí, en cuyo caso probablemente lo haya intentado en algún momento. Los veranos son calurosos aquí, y los inviernos con fuertes corrientes de aire, pero el otoño y la primavera son absolutamente increíbles.";
     font-size: 16px;
-    line-height: 26.08px;
+    line-height: 1.63;
   }
 
   .town__media-320text_city_kiev::after {
     content: "La ciudad en sí es una mezcla de arquitectura prerrevolucionaria, de posguerra y soviética, toda ella salpicada de balcones modificados. Si te encuentras en la orilla derecha del Dniéper, el paisaje es difícil de atravesar para las personas en bicicleta y las que llevan tacones. Sin embargo, la orilla izquierda es considerada mucho menos interesante y prestigiosa, incluso por la gente que vive en las afueras de la derecha.";
     font-size: 16px;
-    line-height: 26.08px;
+    line-height: 1.63;
   }
 
   .town__media-320text_city_criccieth {
@@ -389,13 +387,13 @@
   .town__media-320text_city_criccieth::before {
     content: "La ruina medieval del castillo de Criccieth domina la ciudad desde una roca que se adentra en el mar. Se cree que fue construido por Llewelyn el Grande en el siglo XIII. Unos 900 años después, la autodenominada *Perla de Gales a orillas de Snowdonia* se ha convertido en un popular destino turístico durante los meses de verano.";
     font-size: 16px;
-    line-height: 26.08px;
+    line-height: 1.63;
   }
 
   .town__media-320text_city_criccieth::after {
     content: "A poca distancia del castillo, se puede disfrutar del mejor helado del mundo en Cadwalader's, cuyo ingrediente secreto se rumorea que son las algas de la zona. Otro reclamo a la fama es el hecho de que Criccieth ganó el premio *Wales in Bloom* durante cinco años consecutivos por sus espectaculares exhibiciones florales alrededor de la ciudad. También fue el hogar de David Lloyd George, el único galés que ocupó el cargo de Primer Ministro del Reino Unido.";
     font-size: 16px;
-    line-height: 26.08px;
+    line-height: 1.63;
   }
 
   .town__media-320text_city_berea {
@@ -405,31 +403,31 @@
   .town__media-320text_city_berea::before {
     content: "Berea es una pequeña ciudad situada en la parte central de Kentucky. La ciudad está rodeada de hermosos bosques y campos. Es conocida como la capital del arte y la artesanía del estado, y los visitantes encontrarán muchas oportunidades de compra: tiendas con joyas hechas a mano, velas, artículos de madera, galerías, estudios de vidrio y mucho más. La ciudad celebra cada año un festival en el que se festeja el 'spoonbread', un plato local hecho con pan de maíz y servido con una cuchara de madera.";
     font-size: 16px;
-    line-height: 26.08px;
+    line-height: 1.63;
   }
 
   .town__media-320text_city_berea::after {
     content: "Sin embargo, es probablemente más conocido por la universidad local. Berea College se fundó en 1855 y fue la primera universidad del sur de EE.UU. en estar integrada racialmente, así como la primera en ser coeducativa. De manera singular, no cobra matrícula: todos los estudiantes reciben una beca de matrícula completa.";
     font-size: 16px;
-    line-height: 26.08px;
+    line-height: 1.63;
   }
 
   .town__media-320text_city_muramvya {
     gap: 25px;
     font-size: 16px;
-    line-height: 26.08px;
+    line-height: 1.63;
   }
 
   .town__media-320text_city_muramvya::before {
     content: "Muramvya es una de las 18 provincias de Burundi. En la época del reino, Muramvya era la capital real y en 2007, por su cultura y paisaje natural, fue incluida en la lista indicativa del Patrimonio Cultural Mundial de la UNESCO. Está situada en el centro de Burundi, entre las capitales política y económica del país.";
     font-size: 16px;
-    line-height: 26.08px;
+    line-height: 1.63;
   }
 
   .town__media-320text_city_muramvya::after {
     content: "El Parque Nacional de Kibira, una de las mayores reservas de fauna silvestre para simios, se extiende por cuatro provincias, incluida Muramvya. Este Parque Nacional se encuentra en el vértice de las hermosas montañas de la divisoria Congo-Nilo, que oscilan entre los 1.550 y los 2.660 metros de altitud. Está lleno de hermosa vegetación, y es una fuente para los diversos ríos y arroyos que proporcionan agua en todo el país.";
     font-size: 16px;
-    line-height: 26.08px;
+    line-height: 1.63;
   }
 
   .town__media-320text_city_barranquilla {
@@ -439,20 +437,20 @@
   .town__media-320text_city_barranquilla::before {
     content: "Barranquilla, también conocida como la Arenosa o Curramba la Bella, es una de las principales ciudades de Colombia y un destino turístico de referencia para locales y extranjeros. Esta ciudad, donde el río Magdalena termina su largo recorrido, es cuna de grandes músicos, literatos y pintores. Además, es escenario de una de las fiestas más importante del país, el Carnaval de Barranquilla.";
     font-size: 16px;
-    line-height: 26.08px;
+    line-height: 1.63;
   }
 
   .town__media-320text_city_barranquilla::after {
     content: "Admiro mucho el artista Fernando Botero. Nacido en Medellín (Colombia), Fernando Botero empezó a trabajar como ilustrador a los dieciséis años en una revista literaria local. Estos primeros dibujos eran mucho más naturalistas y tradicionales que su más conocido estilo maduro de figuras infladas e imágenes exageradas. Poetas románticos de habla hispana como Francisco García Lorca y Pablo Neruda, así como la música local, fueron algunas de las primeras influencias de su arte.";
     font-size: 16px;
-    line-height: 26.08px;
+    line-height: 1.63;
   }
 
   .town__media-shop-button {
     margin: 8px 16px 0;
     width: 288px;
     font-size: 14px;
-    line-height: 16.94px;
+    line-height: 1.21;
   }
 
   .town__media-shop-button_city_criccieth {

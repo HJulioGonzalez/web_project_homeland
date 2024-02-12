@@ -5,7 +5,7 @@
   gap: 80px;
 }
 
-@media screen and (min-width: 545px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1280px) {
   .towns {
     display: flex;
     flex-direction: column;
@@ -14,7 +14,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 544px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .towns {
     padding: 62px 0 64px;
     gap: 16px;
